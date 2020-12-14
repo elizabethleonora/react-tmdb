@@ -6,7 +6,7 @@ import { StyledMovieInfoBar } from '../styles/StyledMovieInfoBar'
 
 const MovieInfoBar = ({ time, budget, revenue }) => (
     <StyledMovieInfoBar>
-        <div className='movieinfobar.content'>
+        <div className='movieinfobar-content'>
             <div className='movieinfobar-content-col'>
                 <FontAwesome className='fa-time' name='clock-o' size='2x' />
                 <span className='movieinfobar-info'>
